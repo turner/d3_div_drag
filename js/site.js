@@ -6,8 +6,7 @@ function letsGo() {
     var id = "scarpa",
         selectionCriteria,
         drag,
-        bodySelection,
-        s;
+        bodySelection;
 
     drag = d3.behavior.drag()
         .origin(Object)
@@ -46,11 +45,5 @@ function letsGo() {
             return d.y + "px";
         })
         .call(drag);
-
-    s = bodySelection.selectAll(selectionCriteria);
-
-    console.log("yo");
-
-
 
 }
