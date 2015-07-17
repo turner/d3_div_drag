@@ -1,0 +1,16 @@
+.draggable {
+
+    position: absolute;
+
+    top: 32px;
+    left: 64px;
+    width: 512px;
+    height: 512px;
+
+    background-color: #d4e7fd;
+
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(87, 87, 87);
+
+}
